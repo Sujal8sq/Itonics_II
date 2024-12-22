@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
-const username = Cypress.env('UserName');
-const password = Cypress.env('Password');
+const username = Cypress.env('USERNAME');
+const password = Cypress.env('PASSWORD');
 
 describe("Assignment:", () => {
     beforeEach(() => {
