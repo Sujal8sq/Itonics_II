@@ -26,6 +26,6 @@ jobs:
 
       - name: Run test command
         env:
-          UserName : ${{secrets.UserName}}
-          password : ${{secrets.password}}
+          UserName : ${{secrets.USERNAME}}
+          password : ${{secrets.PASSWORD}}
         run: npm run dashboard
