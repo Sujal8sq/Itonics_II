@@ -9,7 +9,7 @@ describe("Assignment:", () => {
         cy.visit("/");
     });
 
-    it("Navigate to url & click on the 1st video & assert the URL of the video detail page is correct", () => {
+    it("Assert if the username and passed username are equal", () => {
         //Complete the login process
         cy.xpath('//span[contains(text(),"Login")]').click();
         cy.get('#mat-mdc-form-field-label-0').type(username);
